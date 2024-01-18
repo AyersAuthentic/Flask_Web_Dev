@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Microblog</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="navbar__brand">
+        <img src="Logo.svg" alt="The Microblog Log" />Microblog
+      </div>
+      <ul class="navbar__navigation">
+        <li class="navbar__navigation-item">
+          <a href="#" class="navbar__link">Recent</a>
+        </li>
+        <li class="navbar__navigation-item">
+          <a href="#" class="navbar__link">Calendar</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section>
+        <h1>Add New Entry</h1>
+        <form action="/entry">
+          <label for="sample-field">Sample:</label>
+          <input type="text" name="sample" id="sample-field" />
+        </form>
+      </section>
+      <section>
+        <h1>Recent Posts</h1>
+        <article>
+          <div>
+            <h2>A bit of a chill day today</h2>
+            <time datetime="24-10-2023">Oct 24</time>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            alipsum.
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
